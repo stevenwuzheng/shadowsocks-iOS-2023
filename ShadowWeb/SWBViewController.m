@@ -449,7 +449,7 @@
 
 - (void)initPagesAndTabs {
     [_pageManager initMappingAndTabsByPages];
-    NSArray *pages = _pageManager.pages;
+    NSArray <SWBPage *> *pages = _pageManager.pages;
 //    NSInteger currentTabTag = 0;
     NSUInteger count = [pages count];
     for (int i = 0; i < count; i++) {
